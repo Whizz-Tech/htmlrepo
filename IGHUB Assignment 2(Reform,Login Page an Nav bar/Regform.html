@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+
+        input[type=text]{
+            width: 70%;
+            padding: 10px 5px;
+            margin: 1px 0;
+            display: inline-block;
+            border: 2px solid#f2f2f2;
+            border-radius: 7px;
+            box-sizing: border-box;
+        }
+
+        input[type=Submit]{
+            width: 15%;
+            background-color: #4CAF50;
+            padding: 17px 70px  20px 40px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 10px;
+            color: white;
+            cursor: pointer;
+            text-align: center;
+        }
+        input[type=Submit]:hover{
+            background-color:grey;
+        
+        }
+        body{
+            color: honeydew;
+            padding: 20px 30px 50px 40px;
+            margin: 30px 50px 50px 10px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background-size: cover;
+            background-image:url(bg_1.jpg);
+            background-repeat: no-repeat;
+    
+        }
+        form{
+        
+            color: honeydew;
+            justify-content: center;
+            display: flex;
+            padding: 30px;
+            margin-bottom: 30px;
+        }
+        
+        h1{
+            color: #4CAF50;
+            margin-top: 30px;
+            margin-bottom:-50px
+            
+        }
+        fieldset{
+            background-color: grey;
+            border-color: darkgray; 
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <center><h1>REGISTRATION FORM</h1></center>
+    <div class="Registration Form">
+    <form>
+        <fieldset>
+        <legend><h2><em>Personal Information</em></h2></legend>
+       <b>First Name:</b><br> <input type="text" name="First Name" ><br>
+       <b>Last Name:</b><br> <input type="text" name="Last Name"><br>
+       <b>Country:</b><br> <input type="text" name="Country"><br>
+       <b>State of Origin:</b><br> <input type="text" name="State of Origin"><br>
+       <b>LGA:</b><br> <input type="text" namee="LGA"><br>
+       <b>Sex:</b><br> <input type="checkbox" Name="Gender" value="Male"><i>Male</i><br>
+       <input type="checkbox" Name="Gender" value="Female"><i>Female</i><br>
+       <input type="checkbox" Name="Gender" value="Others"><i>Others</i><br>
+       <b>Date of Birth:</b> <input type="text" name="D.O.B" ><br>
+       <input type="Submit" value="SUBMIT">
+    </fieldset>
+    </form>
+</div>
+</body>
+</html>

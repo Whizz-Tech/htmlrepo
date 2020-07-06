@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN PAGE</title>
+    <style>
+
+        input[type=text]{
+            width: 70%;
+            padding: 10px 5px;
+            margin: 1px 0;
+            display: inline-block;
+            border: 3px solid#f2f2f2;
+            border-radius: 10px;
+            box-sizing: border-box;
+        }
+
+        input[type=Submit]{
+            width: 15%;
+            background-color: #4CAF50;
+            padding: 17px 70px  20px 40px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 10px;
+            color: white;
+            cursor: pointer;
+            text-align: center;
+        }
+        input[type=Submit]:hover{
+            background-color:grey;
+        }
+        body{
+            padding: 20px 30px 50px 40px;
+            margin: 30px 50px 50px 10px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background-size:auto;
+            background-image:url(logo.jpg);
+            background-repeat: no-repeat;
+            background-color: whitesmoke;
+            font-weight: bolder;
+        }
+
+        .Login{
+            background-color: white;
+            border: 1px solid #4CAF50;
+            box-shadow: #4CAF50;
+            color: #4CAF50;
+            border-radius: 25px;
+            width: 400px;
+            padding: 40px;
+            margin: 100px auto;
+        }
+        form{
+            color:#4CAF50;
+            justify-content: center;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        label{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 30px;
+            width: 65px;
+            padding: 0 20px 20px;
+        }
+        
+        h2{
+            text-align: center;
+            margin-bottom: 10px;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body> 
+    <div class="Login">
+        <h2>LOGIN</h2>
+    <form action="#">
+       <label for="E-mail">E-Mail:</label>
+       <input type="text" name="username">
+       <label for="Password">Password:</label>
+       <input type="text" name="Password">
+       <input type="submit" value="LOGIN" name="LOGIN" >
+    </form>
+</div>
+</body>
+</html>
