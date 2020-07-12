@@ -1,0 +1,207 @@
+body{
+    margin: 0;
+    background-color: white;
+    font-family: "Times New Roman";
+    padding: 0;
+}
+
+.Main{
+    background-color: #115dcf;
+    margin: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.Main h3{
+    color: #fff;
+    margin-left: 17%;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+Main b{
+    font-size: 24px;
+    font-weight: lighter; 
+    margin:0;
+}
+
+.Box{
+    background: #fff;
+    display: block;
+    margin-left: 16%;
+    margin-top: 5%;
+    width: 250px;
+    border: none;
+    float: left;
+}
+.Box ul{
+    list-style: none;
+    padding: 10px;
+}
+
+.Box ul li a{
+    color: #000;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    line-height: 30px;
+    border-bottom: 1px solid #000;
+    background-color: #fff;
+    font-size: 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Box ul li a:hover:not(.active) {
+    background-color:#000;
+    color: #fff;
+}
+.Box ul li a.active{
+    background-color:#115dcf;
+    color: #fff;
+    font-weight: bold;
+}
+.Main ul{
+    float: right;
+    padding: 4px;
+    font-size: 18px;
+    color: #fff;
+    margin-top: -40px;
+    width: aut0;
+    margin-right: 15%;
+} 
+.Main ul a{
+    color: #fff;
+    text-decoration: none;
+    background-color: #7db3f0;
+    padding: 21px;
+    margin-right: 10px;
+    border-radius: 2px;
+}
+.Body{
+    margin-top: 5%;
+    padding: 10px;
+    margin-right: 5%;
+    margin-left: 3%;
+    display: inline-block;
+}
+
+.Body h1 {
+    letter-spacing: 1px;
+}
+
+.Body p{
+    font-size: 17px;
+    margin-bottom: 2%;
+    letter-spacing: 1px;
+}
+
+.List{
+    background-color: rgb(250, 250, 250);
+    padding: 4%;
+    width: 100%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: 6px solid white;  
+    margin: 0;  
+}
+.List li{
+    margin-left: -7%;
+}
+
+h1{
+    margin-bottom: -10%;
+}
+
+.Flex{
+    display: flex;
+    margin: 14%;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-bottom: 5%;
+}
+
+.Flex p{
+    margin-right: 20%;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.A b{
+    font-size: 18px;
+    
+}
+.B b {
+    font-size: 18px;
+}
+.C b{
+    color: rgb(29, 247, 0);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.A{
+    background-color: whitesmoke;
+    padding: 3%;
+    margin-right:10%;
+    width: 10em;
+    border: 2px solid white;
+    outline: none;
+
+}
+
+.B{
+    background-color: whitesmoke;
+    padding: 3%;
+    margin-right:10% ;
+    width: 6em;
+    border: 2px solid white;
+    outline: none;
+}
+
+.C{
+    background-color: whitesmoke;
+    padding: 3%;
+    margin-right:10% ;
+    width: 6em;
+    border: 2px solid white;
+    outline: none;
+}
+
+.btn{
+    background-color:#115dcf;
+    padding: 4%;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+    outline: none;
+    width: 17em
+}
+.down{
+    background-color: #115dcf;
+    color: #fff;
+    width: 100%;
+    float: right;
+    padding: -5%;
+    margin: 0;
+    margin-top: 1%;
+}
+
+.down h5{
+    float: left;
+    font-size: 12px;
+    margin-left: 20%;
+    margin-top: 2%;
+    margin-bottom: 0;
+}
+
+.down h6{
+    float: right;
+    font-size: 11px;
+    margin-right: 20%;
+    margin-bottom: 2%;
+    margin-left: -10%;
+}
