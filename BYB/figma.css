@@ -1,0 +1,174 @@
+body{
+    margin: 0;
+    background-color: white;
+    font-family: "Tahoma";
+    padding: 0;
+}
+
+.Main{
+    background-color: #115dcf;
+    margin: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.Main h3{
+    color: #fff;
+    margin-left: 17%;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+Main b{
+    font-size: 25px;
+    font-weight: lighter; 
+    margin:0;
+}
+
+.Box{
+    background: #fff;
+    display: block;
+    margin-left: 16%;
+    margin-top: 6%;
+    width: 250px;
+    border: none;
+    float: left;
+}
+.Box ul{
+    list-style: none;
+    padding: 10px;
+}
+
+.Box ul li a{
+    color: #000;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    line-height: 30px;
+    border-bottom: 1px solid #000;
+    background-color: #fff;
+    font-size: 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Main ul{
+    float: right;
+    padding: 4px;
+    font-size: 18px;
+    color: #fff;
+    margin-top: -50px;
+    width: aut0;
+    margin-right: 15%;
+} 
+.Main ul a{
+    color: #fff;
+    text-decoration: none;
+    background-color: #7db3f0;
+    padding: 21px;
+    margin-right: 10px;
+    border-radius: 2px;
+}
+.Box ul li a:hover:not(.active) {
+    background-color:#000;
+    color: #fff;
+}
+.Box ul li a.active{
+    background-color:#115dcf;
+    color: #fff;
+    font-weight: bold;
+}
+.Body{
+    margin-top: 6%;
+    padding: 10px;
+    margin-right: 5%;
+    margin-left: 3%;
+    display: inline-block;
+}
+
+.Body h3{
+    font-size: 15px;
+    font-weight: bold;
+}
+form{
+    border: 3px solid rgba(219, 217, 217, 0.733);
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    padding: 4%;
+    margin-top: -1%;
+}
+
+form p{
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 2%;
+    text-align: left;
+    margin-left: -2%;
+}
+
+input[type =text], input[type=email]{
+    padding: 3%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    width: 13em;
+    border: 1px solid grey;
+    border-radius: 4px;
+    background-color: rgb(248, 247, 247);
+    outline: none;
+    margin: 2%;
+}
+
+.select{
+    padding: 3%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    width: 16em;
+    border: 1px solid grey;
+    background-color: rgb(248, 247, 247);
+    border-radius: 4px;
+    outline: none;
+    margin: 1%;
+}
+
+
+.btn{
+    color: #fff;
+    background-color: #115dcf;
+    width: 30em;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    padding: 5%;
+    margin-top: 10px;
+}
+.btn:active{
+    color:#fff;
+    background-color: #000;
+}
+.down{
+    background-color: #115dcf;
+    color: #fff;
+    width: 100%;
+    float: right;
+    padding: -5%;
+    margin: 0;
+    margin-top: 1%;
+}
+
+.down h5{
+    float: left;
+    font-size: 12px;
+    margin-left: 20%;
+    margin-top: 2%;
+    margin-bottom: 0;
+}
+
+.down h6{
+    float: right;
+    font-size: 11px;
+    margin-right: 20%;
+    margin-bottom: 2%;
+    margin-left: -10%;
+}
