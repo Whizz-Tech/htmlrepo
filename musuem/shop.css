@@ -1,0 +1,80 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+  font-family: "Cambria";
+}
+.Watch{
+  align-content: center;
+  width: 360px;
+  margin: auto;
+  border: 0.5px solid grey;
+  border-radius: 5px;
+  padding: 0.7%;
+  margin-top: 3%;
+}
+
+.Watch h6{
+  float: left;
+  font-weight: bold;
+  margin-right: -60%;
+}
+
+.image{
+  width: auto;
+  margin: 0;
+  padding: -30%;
+  margin-top: -2%;
+  border-radius: 10%;
+  box-shadow: 10px grey;
+}
+
+.Info h1{
+  letter-spacing: 1px;
+  font-weight: bold;
+  margin-top: 2%;
+  font-size: 25px;
+}
+
+.Info p{
+  font-size: 13px;
+  margin-top: -3%;
+  color: gray;
+  font-weight: bold;
+}
+
+.Float2 p{
+  font-weight: bold;
+  margin-bottom: 1px;
+}
+
+.lob{
+  color: gray;
+}
+
+.lob i{
+  float: right;
+  margin-bottom:-20%;
+  margin: 1%;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.lob h5{
+  float: left;
+  margin-top:1% ;
+  font-weight: bold;
+}
+
+.btn{
+  color: #fff;
+  background-color: red;
+  outline: none;
+  padding: 4%;
+  margin: 4% 0% 1% 6%;
+  width: 20em;
+  border: 1px solid red;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 16px;
+}
